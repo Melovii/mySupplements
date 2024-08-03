@@ -1,0 +1,104 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+:root {
+    --text-color: #cbcbcb;
+    --bg-color: #191B1CFF;
+    --shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: transparent;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-bottom: white solid 1px;
+    margin-bottom: 20px;
+}
+
+nav button {
+    margin: 5px 35px;
+    color: var(--text-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 250ms;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav button:hover {
+    color: white;
+    border-bottom: 1px solid white;
+    transform: scale(1.2);
+}
+
+
+/* Content */
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 16px;
+    font-size: 24px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+}
+
+footer a {
+    width: 32px;
+    height: 32px;
+}
+
+.github {
+    height: 32px;
+    width: auto;
+    color: var(--bg-color);
+    transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.github:hover {
+    transform: scale(1.5);
+}
