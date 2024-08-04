@@ -7,7 +7,7 @@ console.log('testing index.js!');
 import createHomePageContent from './homepage.js';
 createHomePageContent();
 
-import createHomeContent from './navbar/home';
+// import createHomeContent from './navbar/home';
 import createProductContent from './navbar/products';
 import createAboutContent from './navbar/about';
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             switch (event.target.textContent) {
                 case 'Home':
-                    createHomeContent();
+                    createHomePageContent();
                     break;
                 case 'Products':
                     createProductContent();
