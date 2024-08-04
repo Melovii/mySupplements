@@ -1,13 +1,4 @@
-function createElement(tag, text, attributes = {}) {
-    const element = document.createElement(tag);
-    if (text) {
-        element.textContent = text;
-    }
-    Object.keys(attributes).forEach((key) => {
-        element.setAttribute(key, attributes[key]);
-    });
-    return element;
-}
+import { createElement } from '../helperMethods'; // TODO: import from helperMethods.js lmao
 
 function createAboutContent() {
     const contentDiv = document.querySelector('#content');
@@ -42,4 +33,3 @@ function createAboutContent() {
 }
 
 export default createAboutContent;
-export default createElement;
