@@ -2,7 +2,7 @@ function createHomeContent() {
     const contentDiv = document.querySelector('#content');
 
     const img = document.createElement('img');
-    img.src = '../media/image.png';
+    img.src = './media/images/barbell.jpg';
     img.alt = 'Image';
 
     const headline = document.createElement('h1');
