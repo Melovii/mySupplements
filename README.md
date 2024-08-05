@@ -1,6 +1,6 @@
 # mySupplements
 
-## [Live Demo](https://melovii.github.io/supplements-page/)
+## [Live Demo](https://melovii.github.io/mySupplements/)
 
 - Online supplements store
 - Implemented tab-browsing using modules/imports
