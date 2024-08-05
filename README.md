@@ -2,7 +2,9 @@
 
 ## [Live Demo](https://melovii.github.io/supplements-page/)
 
-Online supplements store, implemented tab-browsing using modules/imports, and used webpack for deployment.
+- Online supplements store
+- Implemented tab-browsing using modules/imports
+- Used webpack for deployment
 
 ### Resources used:
 
