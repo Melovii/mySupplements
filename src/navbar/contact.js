@@ -11,7 +11,7 @@ function createContactContent() {
 
     const phoneDiv = document.createElement('div');
     phoneDiv.classList.add('containers');
-    const phonePara = createElement('p', '+69 420 908 31 69');
+    const phonePara = createElement('p', '+81 123 456 78 90');
 
     const locationDiv = document.createElement('div');
     locationDiv.classList.add('containers');
@@ -22,7 +22,6 @@ function createContactContent() {
     pinImage.alt = 'Shibuya Station Location';
     pinImage.style.width = '480px';
     pinImage.style.height = 'auto';
-    // pinImage.style.marginBottom = '24px';
 
     const phoneIcon = document.createElement('img');
     phoneIcon.src = phoneI;
@@ -55,7 +54,6 @@ function createContactContent() {
     const containers = document.querySelectorAll('.containers');
     containers.forEach((container) => {
         container.style.display = 'flex';
-        // container.style.flexDirection = 'column';
         container.style.alignItems = 'center';
         container.style.gap = '10px';
     });
